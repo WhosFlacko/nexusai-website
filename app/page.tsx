@@ -116,13 +116,21 @@ export default function Home() {
               Transform your business with cutting-edge AI solutions. We build intelligent systems that adapt, learn, and drive unprecedented growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="bg-gray-900 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-gray-800 hover:shadow-lg group">
+              <a 
+                href="https://calendly.com/nexusai-consultation" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-900 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-gray-800 hover:shadow-lg group inline-flex items-center"
+              >
                 Get Started
-                <ArrowRight className="inline-block ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </button>
-              <button className="px-8 py-3 border border-gray-400 text-gray-700 rounded-full hover:border-gray-600 hover:text-gray-900 transition-all duration-300">
+                <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </a>
+              <a 
+                href="#services" 
+                className="px-8 py-3 border border-gray-400 text-gray-700 rounded-full hover:border-gray-600 hover:text-gray-900 transition-all duration-300"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -238,6 +246,173 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Solutions Section */}
+      <section className="section-padding">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              <span className="text-gray-700">Industry</span> Solutions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Tailored AI solutions for your specific business needs. See how we help businesses like yours.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <span className="text-2xl">💇‍♀️</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Beauty & Salons</h3>
+              </div>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Automated appointment booking & reminders</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Customer follow-ups & loyalty programs</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Inventory tracking for products & supplies</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Social media content automation</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <span className="text-2xl">🦷</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Dental Practices</h3>
+              </div>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Insurance verification & claims processing</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Appointment scheduling & confirmations</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Patient record management & HIPAA compliance</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Recall notices & treatment reminders</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <span className="text-2xl">🔧</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Auto Repair</h3>
+              </div>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Service appointment booking & management</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Parts inventory tracking & ordering</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Customer communication & updates</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Maintenance reminder notifications</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              Frequently Asked <span className="text-gray-700">Questions</span>
+            </h2>
+            <p className="text-xl text-gray-600">
+              Get answers to common questions about our AI solutions.
+            </p>
+          </div>
+          
+          <div className="space-y-8">
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">How long does setup take?</h3>
+              <p className="text-gray-600">
+                Most implementations are completed within 2 hours. Simple solutions like appointment booking can be live in under 1 hour, while complex integrations may take up to 4 hours.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Do I need technical knowledge?</h3>
+              <p className="text-gray-600">
+                Not at all. We handle all the technical setup and provide simple training. Our systems are designed to be user-friendly for business owners, not developers.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">What if something breaks?</h3>
+              <p className="text-gray-600">
+                We provide 24/7 monitoring and support. If any issues arise, our team is alerted immediately and will resolve them quickly. We also provide a backup system for critical functions.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">How much does it cost?</h3>
+              <p className="text-gray-600">
+                Pricing varies based on your specific needs. Most small businesses start around $399/month. We offer a free consultation to provide an accurate quote based on your requirements.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Can I integrate with my existing systems?</h3>
+              <p className="text-gray-600">
+                Yes! We specialize in integrating with popular business tools like QuickBooks, scheduling software, POS systems, and CRM platforms. We'll assess your current setup during our consultation.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Is my data secure?</h3>
+              <p className="text-gray-600">
+                Absolutely. We use enterprise-grade security, encrypted data transmission, and comply with industry standards including HIPAA for medical practices. Your data never leaves secure servers.
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <a 
+              href="https://calendly.com/nexusai-consultation" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-gray-900 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-gray-800 hover:shadow-lg inline-flex items-center"
+            >
+              Schedule Free Consultation
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </a>
           </div>
         </div>
       </section>
