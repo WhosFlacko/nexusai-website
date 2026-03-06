@@ -74,10 +74,13 @@ export default function Home() {
             </div>
             
             <div className="hidden md:block">
-              <div className="flex items-center space-x-8">
+              <div className="flex items-center space-x-6">
                 <a href="#home" className="text-gray-700 hover:text-gray-900 transition-colors">Home</a>
                 <a href="#services" className="text-gray-700 hover:text-gray-900 transition-colors">Services</a>
+                <a href="#industries" className="text-gray-700 hover:text-gray-900 transition-colors">Industries</a>
+                <a href="#pricing" className="text-gray-700 hover:text-gray-900 transition-colors">Pricing</a>
                 <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors">About</a>
+                <a href="#faq" className="text-gray-700 hover:text-gray-900 transition-colors">FAQ</a>
                 <a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
               </div>
             </div>
@@ -97,7 +100,10 @@ export default function Home() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a href="#home" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Home</a>
               <a href="#services" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Services</a>
+              <a href="#industries" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Industries</a>
+              <a href="#pricing" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Pricing</a>
               <a href="#about" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">About</a>
+              <a href="#faq" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">FAQ</a>
               <a href="#contact" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Contact</a>
             </div>
           </div>
@@ -251,7 +257,7 @@ export default function Home() {
       </section>
 
       {/* Industry Solutions Section */}
-      <section className="section-padding">
+      <section id="industries" className="section-padding">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -348,7 +354,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="section-padding bg-white">
+      <section id="pricing" className="section-padding bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -528,7 +534,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="section-padding bg-gray-50">
+      <section id="faq" className="section-padding bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
