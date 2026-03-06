@@ -77,8 +77,8 @@ export default function Home() {
               <div className="flex items-center space-x-6">
                 <a href="#home" className="text-gray-700 hover:text-gray-900 transition-colors">Home</a>
                 <a href="#services" className="text-gray-700 hover:text-gray-900 transition-colors">Services</a>
-                <a href="#industries" className="text-gray-700 hover:text-gray-900 transition-colors">Industries</a>
                 <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors">About</a>
+                <a href="#industries" className="text-gray-700 hover:text-gray-900 transition-colors">Industries</a>
                 <a href="#pricing" className="text-gray-700 hover:text-gray-900 transition-colors">Pricing</a>
                 <a href="#faq" className="text-gray-700 hover:text-gray-900 transition-colors">FAQ</a>
                 <a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
@@ -100,8 +100,8 @@ export default function Home() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a href="#home" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Home</a>
               <a href="#services" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Services</a>
-              <a href="#industries" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Industries</a>
               <a href="#about" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">About</a>
+              <a href="#industries" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Industries</a>
               <a href="#pricing" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Pricing</a>
               <a href="#faq" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">FAQ</a>
               <a href="#contact" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Contact</a>
@@ -251,6 +251,103 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Solutions Section */}
+      <section id="industries" className="section-padding">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              <span className="text-gray-700">Industry</span> Solutions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Tailored AI solutions for your specific business needs. See how we help businesses like yours.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <span className="text-2xl">💇‍♀️</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Beauty & Salons</h3>
+              </div>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Automated appointment booking & reminders</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Customer follow-ups & loyalty programs</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Inventory tracking for products & supplies</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Social media content automation</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <span className="text-2xl">🦷</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Dental Practices</h3>
+              </div>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Insurance verification & claims processing</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Appointment scheduling & confirmations</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Patient record management & HIPAA compliance</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Recall notices & treatment reminders</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <span className="text-2xl">🔧</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Auto Repair</h3>
+              </div>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Service appointment booking & management</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Parts inventory tracking & ordering</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Customer communication & updates</span>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <span className="text-gray-400">•</span>
+                  <span>Maintenance reminder notifications</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
