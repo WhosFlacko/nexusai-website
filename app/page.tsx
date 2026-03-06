@@ -279,116 +279,19 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Automated appointment booking & reminders</span>
+                  <span>AI appointment booking & reminders</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Customer follow-ups & loyalty programs</span>
+                  <span>Automated customer follow-ups</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Inventory tracking for products & supplies</span>
+                  <span>Phone answering & call screening</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Social media content automation</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
-              <div className="text-center mb-6">
-                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">🦷</span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900">Dental Practices</h3>
-              </div>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Insurance verification & claims processing</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Appointment scheduling & confirmations</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Patient record management & HIPAA compliance</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Recall notices & treatment reminders</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
-              <div className="text-center mb-6">
-                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">🔧</span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900">Auto Repair</h3>
-              </div>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Service appointment booking & management</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Parts inventory tracking & ordering</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Customer communication & updates</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Maintenance reminder notifications</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Industry Solutions Section */}
-      <section id="industries" className="section-padding">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-              <span className="text-gray-700">Industry</span> Solutions
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored AI solutions for your specific business needs. See how we help businesses like yours.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
-              <div className="text-center mb-6">
-                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl">💇‍♀️</span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900">Beauty & Salons</h3>
-              </div>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Automated appointment booking & reminders</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Customer follow-ups & loyalty programs</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Inventory tracking for products & supplies</span>
-                </li>
-                <li className="flex items-start space-x-2">
-                  <span className="text-gray-400">•</span>
-                  <span>Social media content automation</span>
+                  <span>Lead qualification & booking</span>
                 </li>
               </ul>
             </div>
@@ -403,19 +306,19 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Insurance verification & claims processing</span>
+                  <span>AI appointment scheduling & confirmations</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Appointment scheduling & confirmations</span>
+                  <span>Automated recall notices & reminders</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Patient record management & HIPAA compliance</span>
+                  <span>Phone answering & patient screening</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Recall notices & treatment reminders</span>
+                  <span>Lead qualification & consultation booking</span>
                 </li>
               </ul>
             </div>
@@ -430,15 +333,15 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Service appointment booking & management</span>
+                  <span>AI service appointment booking</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Parts inventory tracking & ordering</span>
+                  <span>Automated customer communication</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
-                  <span>Customer communication & updates</span>
+                  <span>Phone answering & service inquiries</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-gray-400">•</span>
