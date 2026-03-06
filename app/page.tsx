@@ -469,7 +469,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
                 <p className="text-gray-600 mb-6">Perfect for small businesses</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">$399</span>
+                  <span className="text-4xl font-bold text-gray-900">$299</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <a 
@@ -485,15 +485,15 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Automated appointment booking</span>
+                  <span className="text-gray-700">AI appointment booking agent</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Customer reminders & follow-ups</span>
+                  <span className="text-gray-700">Automated reminders & follow-ups</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Basic inventory tracking</span>
+                  <span className="text-gray-700">Basic website chatbot</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
@@ -522,7 +522,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-2">Professional</h3>
                 <p className="text-gray-300 mb-6">For growing businesses</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">$699</span>
+                  <span className="text-4xl font-bold">$499</span>
                   <span className="text-gray-300">/month</span>
                 </div>
                 <a 
@@ -542,23 +542,23 @@ export default function Home() {
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-400 font-bold">✓</span>
-                  <span>Advanced customer segmentation</span>
+                  <span>AI phone answering agent</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-400 font-bold">✓</span>
-                  <span>Loyalty program automation</span>
+                  <span>Advanced conversation flows</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-400 font-bold">✓</span>
-                  <span>Social media content automation</span>
+                  <span>Lead qualification automation</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-400 font-bold">✓</span>
-                  <span>Advanced analytics & reporting</span>
+                  <span>Basic analytics & reporting</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-400 font-bold">✓</span>
-                  <span>Integration with existing systems</span>
+                  <span>Integration with existing tools</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-400 font-bold">✓</span>
@@ -573,7 +573,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
                 <p className="text-gray-600 mb-6">For established businesses</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">$1,299</span>
+                  <span className="text-4xl font-bold text-gray-900">$899</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <a 
@@ -597,23 +597,23 @@ export default function Home() {
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Multi-location management</span>
+                  <span className="text-gray-700">Multi-location agent management</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Advanced security & compliance</span>
+                  <span className="text-gray-700">Advanced voice customization</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Dedicated account manager</span>
+                  <span className="text-gray-700">Priority development queue</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">White-label options</span>
+                  <span className="text-gray-700">Extended analytics dashboard</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-green-500 font-bold">✓</span>
-                  <span className="text-gray-700">Custom integrations & API access</span>
+                  <span className="text-gray-700">Unlimited agent modifications</span>
                 </li>
               </ul>
             </div>
@@ -667,7 +667,7 @@ export default function Home() {
             <div className="bg-white border border-gray-200 rounded-xl p-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">How much does it cost?</h3>
               <p className="text-gray-600">
-                Pricing varies based on your specific needs. Most small businesses start around $399/month. We offer a free consultation to provide an accurate quote based on your requirements.
+                Pricing varies based on your specific needs. Most small businesses start around $299/month. We offer a free consultation to provide an accurate quote based on your requirements.
               </p>
             </div>
 
