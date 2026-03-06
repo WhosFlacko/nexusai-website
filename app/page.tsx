@@ -347,6 +347,186 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="section-padding bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              Simple, Transparent <span className="text-gray-700">Pricing</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Choose the plan that fits your business size. All plans include setup, training, and 24/7 support.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Starter Plan */}
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
+                <p className="text-gray-600 mb-6">Perfect for small businesses</p>
+                <div className="mb-6">
+                  <span className="text-4xl font-bold text-gray-900">$399</span>
+                  <span className="text-gray-600">/month</span>
+                </div>
+                <a 
+                  href="https://calendly.com/nexusai-consultation" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-gray-100 text-gray-900 font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:bg-gray-200 inline-block"
+                >
+                  Get Started
+                </a>
+              </div>
+              
+              <ul className="space-y-4">
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Automated appointment booking</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Customer reminders & follow-ups</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Basic inventory tracking</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Email & SMS automation</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">2-hour setup & training</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Business hours support</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Professional Plan (Most Popular) */}
+            <div className="bg-gray-900 text-white rounded-xl p-8 hover:shadow-xl transition-all duration-300 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span className="bg-gray-700 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  Most Popular
+                </span>
+              </div>
+              
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold mb-2">Professional</h3>
+                <p className="text-gray-300 mb-6">For growing businesses</p>
+                <div className="mb-6">
+                  <span className="text-4xl font-bold">$699</span>
+                  <span className="text-gray-300">/month</span>
+                </div>
+                <a 
+                  href="https://calendly.com/nexusai-consultation" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-white text-gray-900 font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:bg-gray-100 inline-block"
+                >
+                  Get Started
+                </a>
+              </div>
+              
+              <ul className="space-y-4">
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Everything in Starter, plus:</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Advanced customer segmentation</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Loyalty program automation</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Social media content automation</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Advanced analytics & reporting</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Integration with existing systems</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-400 font-bold">✓</span>
+                  <span>Priority 24/7 support</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Enterprise Plan */}
+            <div className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Enterprise</h3>
+                <p className="text-gray-600 mb-6">For established businesses</p>
+                <div className="mb-6">
+                  <span className="text-4xl font-bold text-gray-900">$1,299</span>
+                  <span className="text-gray-600">/month</span>
+                </div>
+                <a 
+                  href="https://calendly.com/nexusai-consultation" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-gray-100 text-gray-900 font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:bg-gray-200 inline-block"
+                >
+                  Get Started
+                </a>
+              </div>
+              
+              <ul className="space-y-4">
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Everything in Professional, plus:</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Custom AI workflow development</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Multi-location management</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Advanced security & compliance</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Dedicated account manager</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">White-label options</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-green-500 font-bold">✓</span>
+                  <span className="text-gray-700">Custom integrations & API access</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <p className="text-gray-600 mb-4">
+              All plans include free setup, training, and can be cancelled anytime.
+            </p>
+            <p className="text-sm text-gray-500">
+              Need something custom? <a href="mailto:hello@nexusai.agency" className="text-gray-700 hover:text-gray-900 underline">Contact us</a> for a tailored solution.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="section-padding bg-gray-50">
         <div className="max-w-4xl mx-auto">
