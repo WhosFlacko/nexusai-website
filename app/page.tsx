@@ -78,8 +78,8 @@ export default function Home() {
                 <a href="#home" className="text-gray-700 hover:text-gray-900 transition-colors">Home</a>
                 <a href="#services" className="text-gray-700 hover:text-gray-900 transition-colors">Services</a>
                 <a href="#industries" className="text-gray-700 hover:text-gray-900 transition-colors">Industries</a>
-                <a href="#pricing" className="text-gray-700 hover:text-gray-900 transition-colors">Pricing</a>
                 <a href="#about" className="text-gray-700 hover:text-gray-900 transition-colors">About</a>
+                <a href="#pricing" className="text-gray-700 hover:text-gray-900 transition-colors">Pricing</a>
                 <a href="#faq" className="text-gray-700 hover:text-gray-900 transition-colors">FAQ</a>
                 <a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
               </div>
@@ -101,8 +101,8 @@ export default function Home() {
               <a href="#home" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Home</a>
               <a href="#services" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Services</a>
               <a href="#industries" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Industries</a>
-              <a href="#pricing" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Pricing</a>
               <a href="#about" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">About</a>
+              <a href="#pricing" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Pricing</a>
               <a href="#faq" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">FAQ</a>
               <a href="#contact" className="block px-3 py-2 text-gray-900 hover:bg-gray-100 rounded-md">Contact</a>
             </div>
