@@ -632,7 +632,7 @@ export default function Home() {
                   <Phone className="w-6 h-6 text-gray-700" />
                   <div>
                     <p className="font-semibold text-gray-900">Phone</p>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+1 (719) 761-6814</p>
                   </div>
                 </div>
                 
@@ -640,7 +640,7 @@ export default function Home() {
                   <MapPin className="w-6 h-6 text-gray-700" />
                   <div>
                     <p className="font-semibold text-gray-900">Location</p>
-                    <p className="text-gray-600">San Francisco, CA</p>
+                    <p className="text-gray-600">Colorado Springs, CO</p>
                   </div>
                 </div>
               </div>
