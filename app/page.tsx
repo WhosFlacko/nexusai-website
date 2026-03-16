@@ -628,11 +628,20 @@ export default function Home() {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4">
-                  <Phone className="w-6 h-6 text-gray-700" />
-                  <div>
-                    <p className="font-semibold text-gray-900">Phone</p>
-                    <p className="text-gray-600">+1 (719) 761-6814</p>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-4">
+                    <Phone className="w-6 h-6 text-gray-700" />
+                    <div>
+                      <p className="font-semibold text-gray-900">General Inquiries</p>
+                      <p className="text-gray-600">+1 (719) 645-7431</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center space-x-4">
+                    <Phone className="w-6 h-6 text-gray-700" />
+                    <div>
+                      <p className="font-semibold text-gray-900">Direct Contact</p>
+                      <p className="text-gray-600">+1 (719) 761-6814</p>
+                    </div>
                   </div>
                 </div>
                 
